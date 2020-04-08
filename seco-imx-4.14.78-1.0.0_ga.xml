@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <include name="imx-4.14.78-1.0.0_ga.xml"/>
+
+  <remote fetch="https://git.seco.com" name="seco-bsp8"/>
+
+  <!-- Release Version -->
+  <project remote="seco-bsp8" revision="master" name="arm/nxp/imx6/bsp8/release/meta-seco-bsp8-rel" path="sources/meta-seco-bsp8-rel">
+	  <linkfile src="seco-setup.sh" dest="seco-setup.sh"/>
+  </project>
+
+  <project remote="seco-bsp8" revision="master" name="arm/nxp/imx6/bsp8/release/tools-imx-yocto-project-config" path="sources/meta-seco-bsp8-rel/conf/tools-prj-config"/>
+
+
+</manifest>
